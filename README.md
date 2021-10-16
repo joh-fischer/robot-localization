@@ -33,7 +33,7 @@ In a second step the particles got weighted according to the fitting of them to 
 
 ## Results
 In the beginning the particles were distributed uniformly across the map.
-[Randomly distributed particles](./data/10trials/figure_0.png).
+![Randomly distributed particles](./data/10trials/figure_0.png?raw=True).
 
 
 With further movement the
