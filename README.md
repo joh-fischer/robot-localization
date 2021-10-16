@@ -33,9 +33,11 @@ In a second step the particles got weighted according to the fitting of them to 
 
 ## Results
 In the beginning the particles were distributed uniformly across the map, as it can be seen in the figure below.
+
 <img src='./data/10trials/figure_0.png' width="400" height="400">
+
 Yellow particles were the initial particles, and the green particles ones were resampled. The black square represents the true position of the robot, the cyan triangle displays the robots position based on the motion model, and the blue triangle represents the estimate of the position based on the particles. Red symbolized the landmarks that were given to the robot in advance.
 
 With increasing time and therefore, more movement, the particles slowly converge to be closer to the true position, as well as their orientation. This can be seen in the figure below.
-<img src='./data/10trials/figure_7.png' width="400" height="400">
 
+<img src='./data/10trials/figure_7.png' width="400" height="400">
