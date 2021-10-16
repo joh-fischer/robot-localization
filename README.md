@@ -32,7 +32,7 @@ As a first step of localization, a world object was created using an array of la
 In a second step the particles got weighted according to the fitting of them to the actual measurements of the robot, and then normalized, so they sum up to one in the end. The third step was to resample the particles, but with higher weighted particles being drawn more often than particles with less weight. The final step was the estimation of the robots position based on the particles. I used the weighted mean for all particles to estimate x and y, and the [mean of circular quantities](https://en.wikipedia.org/wiki/Mean_of_circular_quantities) for the orientation.
 
 ## Results
-In the beginning the particles were distributed uniformly across the map. <img src='./data/10trials/figure_0.png' width="100" height="100">
+In the beginning the particles were distributed uniformly across the map. <img src='./data/10trials/figure_0.png' width="250" height="250">
 
 
 ![Randomly distributed particles](./data/10trials/figure_0.png?raw=True =200x200).
