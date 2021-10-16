@@ -1,6 +1,9 @@
 # Robot Localization
-This project was done for the Mobile Robotics course in the *Intelligent Interactive Systems* master's program at Pompeu Fabra University. Video: 
-https://youtu.be/9XJN4wRFa5s
+This project was done for the Mobile Robotics course in the *Intelligent Interactive Systems* master's program at Pompeu Fabra University.
+
+<iframe width="480" height="270"
+src="https://youtu.be/9XJN4wRFa5s">
+</iframe> 
 
 ## Environment
 
