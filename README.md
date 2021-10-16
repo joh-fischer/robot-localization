@@ -32,6 +32,9 @@ As a first step of localization, a world object was created using an array of la
 In a second step the particles got weighted according to the fitting of them to the actual measurements of the robot, and then normalized, so they sum up to one in the end. The third step was to resample the particles, but with higher weighted particles being drawn more often than particles with less weight. The final step was the estimation of the robots position based on the particles. I used the weighted mean for all particles to estimate x and y, and the [mean of circular quantities](https://en.wikipedia.org/wiki/Mean_of_circular_quantities) for the orientation.
 
 ## Results
-In the beginning the particles were distributed uniformly across the map. ![Randomly distributed particles](./data/10trials/figure_0.png?raw=True =200x200).
+In the beginning the particles were distributed uniformly across the map. <img src='./data/10trials/figure_0.png' width="100" height="100">
+
+
+![Randomly distributed particles](./data/10trials/figure_0.png?raw=True =200x200).
 With further movement the particles converged, as particles with higher weights were drawn more often. In the figure above one can see that yellow particles were the initial particles, and the green particles were the ones that were resampled. The black square represents the true position of the robot, the cyan triangle displays the robots position based on the motion model, and the blue triangle represents the estimate of the position based on the particles. Red symbolized the landmarks that were given to the robot in advance.
 With increasing time and therefore, more movement, the particles slowly converged to be closer to the true position of the robot, and also the orientation converged, as it can be seen in the figure on the bottom. Drawing more and more particles that are closer to the true position also led, of course, to a better estimate.
